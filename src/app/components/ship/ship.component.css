@@ -1,0 +1,13 @@
+.ship{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+    background-color: blue;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+}
+
+.ship:hover{
+    background-color: black;
+}

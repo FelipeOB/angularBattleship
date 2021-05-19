@@ -1,0 +1,5 @@
+<div 
+    *ngFor="let ship of templateVessels"
+    class="ship {{ship.id}}"
+    (onclick)="createShip(ship)"
+>{{ ship.label }}</div>

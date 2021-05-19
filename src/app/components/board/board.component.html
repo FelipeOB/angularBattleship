@@ -1,0 +1,9 @@
+<div class="boardContainer">
+    <div 
+        class="field" 
+        *ngFor="let field of fields" 
+        id={{field.id}}
+        (onClick)='setShipPosition(field.id)'
+    ></div>
+</div>
+<app-ship></app-ship>
